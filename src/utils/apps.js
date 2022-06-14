@@ -284,7 +284,7 @@ var apps = [{
   icon: 'github',
   type: 'app',
   action: 'EXTERNAL',
-  payload: 'https://github.com/blueedgetechno/win11React'
+  payload: 'https://tucan.ga/'
 },
 {
   name: 'Unescape',
