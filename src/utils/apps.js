@@ -66,7 +66,7 @@ var apps = [{
   type: 'app'
 },
 {
-  name: 'Blue',
+  name: 'Runz',
   icon: 'win/user',
   type: 'short'
 }, {
