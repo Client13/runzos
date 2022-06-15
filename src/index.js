@@ -21,9 +21,8 @@ Sentry.init({
 const root = createRoot(document.getElementById("root"));
 root.render(
   <Suspense fallback={<h1>Initializing....</h1>}>
-return(`
-<style> 
-;body,
+return(`<style> 
+body,
 
 
 .backgroundImage {
