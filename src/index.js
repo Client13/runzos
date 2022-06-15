@@ -20,7 +20,8 @@ Sentry.init({
 
 const root = createRoot(document.getElementById("root"));
 root.render(
-  <Suspense fallback={
+  <Suspense fallback=
+  {
 <style>
 html {
   height: 100%;
