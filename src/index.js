@@ -23,9 +23,8 @@ root.render(
   <Suspense fallback={<h1>Initializing....</h1>}>
 return(`
 <style> 
-html {height: 100%;
-};body,html {height: 100vh;font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
+;body,
+
 
 .backgroundImage {
    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSONcgPeMWZtUQFX46s7zVeRnjztnucUtYLKLsiq3J3qBkKAXWFQLrTxIA&s=10");
