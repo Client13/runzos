@@ -20,7 +20,7 @@ Sentry.init({
 
 const root = createRoot(document.getElementById("root"));
 root.render(
-  <Suspense fallback={<h1>Loading...</h1>}>
+  <Suspense fallback={<h1>Booting Up. Runz Os. c 2022</h1>}>
     <Provider store={store}>
       <App />
     </Provider>
