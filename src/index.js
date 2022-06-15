@@ -20,7 +20,7 @@ Sentry.init({
 
 const root = createRoot(document.getElementById("root"));
 root.render(
-  <Suspense fallback={Initializing....}>
+  <Suspense fallback={<h1>Initializing....</h1>}>
 <style> 
 html {height: 100%;
 };body,html {height: 100vh;font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
