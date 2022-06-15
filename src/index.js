@@ -20,7 +20,9 @@ Sentry.init({
 
 const root = createRoot(document.getElementById("root"));
 root.render(
-  <Suspense fallback={<style>html {
+  <Suspense fallback={`
+<style>
+html {
   height: 100%;
 };body,html {
    height: 100vh;
@@ -129,7 +131,7 @@ root.render(
 
 <div class="row">
      <p style="color:white;text-align : center"><strong>Initializing....</strong></p> 
-  </div>
+  </div>`
 
 
 
