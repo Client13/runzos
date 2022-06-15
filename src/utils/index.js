@@ -9,8 +9,8 @@ var {
   taskbar: (localStorage.getItem("taskbar") &&
     JSON.parse(localStorage.getItem("taskbar"))) || ["Settings", "File Explorer", "Edge", "Store", "Spotify"],
   desktop: (localStorage.getItem("desktop") &&
-    JSON.parse(localStorage.getItem("desktop"))) || ["Blue", "Unescape", "Recycle Bin", "File Explorer", "Store",
-    "Browser", "Github", "Spotify", "Buy me a coffee"
+    JSON.parse(localStorage.getItem("desktop"))) || ["Runz", "Unescape", "Recycle Bin", "File Explorer", "Store",
+    "Browser", "Github", "Spotify"
   ],
   pinned: (localStorage.getItem("pinned") &&
     JSON.parse(localStorage.getItem("pinned"))) || ["Browser", "Get Started", "Task Manager", "Mail", "Settings", "Store",
