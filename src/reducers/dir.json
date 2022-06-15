@@ -74,9 +74,9 @@
               "Public Videos": {}
             }
           },
-          "Blue": {
+          "Runz": {
             "type": "folder",
-            "name": "Blue",
+            "name": "Runz",
             "info": {
               "spid": "%user%",
               "icon": "user"
