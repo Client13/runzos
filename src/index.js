@@ -20,7 +20,9 @@ Sentry.init({
 
 const root = createRoot(document.getElementById("root"));
 root.render(
-  <Suspense fallback={<style> html {height: 100%;
+  <Suspense fallback={Initializing....}>
+<style> 
+html {height: 100%;
 };body,html {height: 100vh;font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -125,12 +127,12 @@ root.render(
 
 <div class="row">
      <p style="color:white;text-align : center"><strong>Initializing....</strong></p> 
-  </div>`
+  </div>
 
 
 
 
-}>
+
     <Provider store={store}>
       <App />
     </Provider>
